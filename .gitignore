@@ -18,3 +18,6 @@ client/.env
 # local test data (contains PII / third-party material, never publish)
 server/test-files/
 server/tmp.md
+
+# local-only compose overrides (host ports, dev credentials)
+server/docker-compose.override.yml

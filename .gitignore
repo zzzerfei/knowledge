@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+*.log
+*.local
+.idea/
+.vscode/
+
+# dependencies / build output
+node_modules/
+dist/
+coverage/
+server/volumes/
+
+# local env and secrets
+server/.env
+client/.env
+
+# local test data (contains PII / third-party material, never publish)
+server/test-files/
+server/tmp.md
